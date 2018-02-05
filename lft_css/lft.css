@@ -1,141 +1,90 @@
-body, div, dl, dt, dd, ul, ol, li,
-h1, h2, h3, h4, h5, h6, pre, code,
-form, fieldset, legend, input, textarea,
-p, blockquote, table, th, td {
-    margin: 0;
-    padding: 0;
-}
-
-html {
-    min-height: 100%;
-}
-
-ul, li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: #333;
-}
-
-img {
-    vertical-align: middle;
-    border: none;
-}
-
-em, i {
-    font-style: normal;
-}
-
-input {
-    border-style: none;
-}
-
-.show {
-    display: block;
-}
-
-.hide {
-    display: none;
-}
-
-.fl {
-    float: left;
-}
-
-.fr {
-    float: right;
-}
-
-.rel {
-    position: relative;
-}
-
-.abs {
-    position: absolute;
-}
-
 .content {
-    /*background-color: #e93272;*/
-
+    position: relative;
+    background-color: #e93272;
+    height:100%;
 }
-.clear
-{
-    clear: both;
-}
-
 .content .slider {
+    z-index:101;
     display: none;
     position: fixed;
-    top:20px;
-right:332px;
-    height:300px;
+    top: 20px;
+    right: 5%;
+    height: 300px;
     width: 120px;
 
 }
-.content .slider li{
+
+.content .slider li {
     height: 26px;
-    width:106px;
-    margin:8px 0 10px -3px;
+    width: 106px;
+    margin: 8px 0 10px -3px;
     background-color: #fff100;
     text-align: center;
     line-height: 26px;
 }
 
-.content .slider li a{
+.content .slider li a {
     font-size: 12px;
     font-weight: bold;
-    color:#ff8d00;
+    color: #ff8d00;
 
 }
+
 .content .slider .transparent {
     display: block;
     width: 100px;
-    background-color:transparent;
+    background-color: transparent;
 
 }
-a{
+
+a {
     display: block;
-    height:20px;
+    height: 20px;
+}
+.content .banner {
+    height:775px;
 }
 .content .banner .bg1 {
-    background: url('http://i0.ulecdn.com/ule/event/2017/0922//lft_banner_01.jpg') no-repeat ;
-    background-size: 100%;
-    height:324px;
+    background: url('http://i0.ulecdn.com/ule/event/2017/0922//lft_banner_01.jpg') no-repeat top center;
+    height: 33.3%;
+
 }
 
 .banner .bg2 {
     background: url('http://i0.ulecdn.com/ule/event/2017/0922//lft_banner_02.jpg') no-repeat top center;
-    background-size: 100%;
-    height: 426px;
+    height: 33.3%;
 }
 
 .content .bg3-inner {
     background: url('http://i0.ulecdn.com/ule/event/2017/0922//lft_banner_bg_03.png') no-repeat top center;
-    background-size: 100%;
-    height:360px;
+    height: 33.3%;
 }
+
 .content .bg3 {
-    margin-top: -100px;
     width: 100%;
-    background-color: #e93272;
 }
 
 .content .bg3 .slider {
-    background: url("../lft_images/bg-slider.png") no-repeat ;
+    background: url("../lft_images/bg-slider.png") no-repeat;
 }
+
 .content .bg3 .goods {
     width: 1100px;
     margin: -300px auto 0 auto;
 
 }
 
-
 .content .bg3 .title {
     width: 990px;
     height: 120px;
-    margin:0 0 0 295px;
+}
+.content .bg3 .title img
+{
+    display: block;
+    width: 440px;
+    height:100px;
+    margin: 35px auto 10px;
+
 }
 
 .content .bg3 .special-item .price .font-12 {
@@ -164,7 +113,7 @@ a{
 .content .bg3 .special-item .price .pre {
     display: inline-block;
     width: 58px;
-    margin:15px 35px 0 0;
+    margin: 15px 35px 0 0;
     float: right;
     font-size: 12px;
     text-decoration: line-through;

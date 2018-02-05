@@ -1,8 +1,8 @@
 @CHARSET "UTF-8";
-body {
-    background-color: bisque
-}
+body{
+    height:100%; width:100%;
 
+}
 .modulesTitle {
     padding: 20px 0 10px 0
 }
